@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio de Gottlieb ADIBOLO - Graphiste Créatif">
-    <meta name="keywords" content="graphiste, designer, portfolio, création, logo, branding, print">
-    <meta name="author" content="Gottlieb ADIBOLO">
-    <title>Gottlieb ADIBOLO | Graphiste Créatif</title>
+    <meta name="description" content="ISPS SARL - Solutions professionnelles de sécurité au Togo. Gardiennage, Convoyage de fonds, Vidéosurveillance, Audit sécurité et Formation professionnelle.">
+    <meta name="keywords" content="sécurité, gardiennage, convoyage de fonds, vidéosurveillance, audit sécurité, formation professionnelle, Togo, Lomé">
+    <meta name="author" content="ISPS SARL">
+    <title>ISPS SARL - Sécurité Professionnelle au Togo</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -14,7 +14,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
@@ -23,7 +23,7 @@
     <!-- Loader -->
     <div class="loader" id="loader">
         <div class="loader-content">
-            <span class="loader-text">GA</span>
+            <span class="loader-text">ISPS</span>
             <div class="loader-bar"></div>
         </div>
     </div>
@@ -35,68 +35,118 @@
 
         <nav class="navigation" role="navigation">
             <div class="nav-header">
-                <span class="nav-logo">GA</span>
+                <img src="logo.png" alt="ISPS SARL Logo" class="nav-logo" style="max-width: 120px;">
             </div>
             <ul class="nav-list">
-                <li><a href="#sec-home" class="nav-link"><i class="fas fa-home"></i> Accueil</a></li>
-                <li><a href="#sec-about" class="nav-link"><i class="fas fa-user"></i> À propos</a></li>
-                <li><a href="#sec-services" class="nav-link"><i class="fas fa-palette"></i> Services</a></li>
-                <li><a href="#sec-portfolio" class="nav-link"><i class="fas fa-eye"></i> Portfolio</a></li>
-                <li><a href="#sec-contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li><a href="#accueil" class="nav-link"><i class="fas fa-home"></i> Accueil</a></li>
+                <li><a href="#apropos" class="nav-link"><i class="fas fa-building"></i> À propos</a></li>
+                <li><a href="#services" class="nav-link"><i class="fas fa-shield-alt"></i> Services</a></li>
+                <li><a href="#pourquoi-nous" class="nav-link"><i class="fas fa-check-circle"></i> Pourquoi nous</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
             </ul>
+            <div class="nav-cta">
+                <a href="#contact" class="btn btn-primary" style="width: 90%; margin: 0 auto; display: block;"><i class="fas fa-file-alt"></i> Demander un devis</a>
+            </div>
             <div class="nav-footer">
-                <p>&copy; 2024 Gottlieb ADIBOLO</p>
+                <p>&copy; 2026 ISPS SARL - Votre sécurité, notre priorité</p>
             </div>
         </nav>
 
         <main class="main-content">
-            <!-- Hero -->
-            <section class="section sec-home" id="sec-home">
-                <div class="content">
+            <!-- Hero Section -->
+            <section class="section sec-home" id="accueil">
+                <div class="hero-background">
+                    <div class="hero-overlay"></div>
+                    <div class="hero-pattern"></div>
+                </div>
+                <div class="hero-container">
                     <div class="hero-content">
-                        <p class="hero-subtitle">Graphiste Créatif</p>
+                        <span class="hero-badge"><i class="fas fa-award"></i> Expert en sécurité depuis 2010</span>
                         <h1 class="hero-title">
-                            <span>Gottlieb</span>
-                            <span>ADIBOLO</span>
+                            <span>Votre sécurité</span>
+                            <span>est notre priorité</span>
                         </h1>
-                        <p class="hero-description">Je conçois des identités visuelles qui marquent</p>
+                        <p class="hero-description">
+                            Solutions professionnelles de sécurité au Togo - Gardiennage, Convoyage de fonds, Vidéosurveillance et Formation professionnelle. Une protection fiable pour votre entreprise.
+                        </p>
                         <div class="hero-cta">
-                            <a href="#sec-portfolio" class="btn btn-primary"><i class="fas fa-eye"></i> Voir mon travail</a>
-                            <a href="#sec-contact" class="btn btn-secondary">Me contacter</a>
+                            <a href="#contact" class="btn btn-primary"><i class="fas fa-file-alt"></i> Demander un devis gratuit</a>
+                            <a href="#services" class="btn btn-outline"><i class="fas fa-shield-alt"></i> Nos services</a>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="hero-stat">
+                                <span class="hero-stat-number" id="stat-years">15+</span>
+                                <span class="hero-stat-label">Années d'expérience</span>
+                            </div>
+                            <div class="hero-stat">
+                                <span class="hero-stat-number" id="stat-clients">200+</span>
+                                <span class="hero-stat-label">Clients protégés</span>
+                            </div>
+                            <div class="hero-stat">
+                                <span class="hero-stat-number" id="stat-agents">500+</span>
+                                <span class="hero-stat-label">Agents qualifiés</span>
+                            </div>
+                            <div class="hero-stat">
+                                <span class="hero-stat-number" id="stat-sites">1000+</span>
+                                <span class="hero-stat-label">Sites sécurisés</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- À propos -->
-            <section class="section sec-about" id="sec-about">
+            <!-- À propos Section -->
+            <section class="section sec-about" id="apropos">
                 <div class="content">
                     <div class="section-header">
                         <span class="section-number">01</span>
-                        <h2 class="section-title">À propos</h2>
+                        <h2 class="section-title">À propos de nous</h2>
+                        <p class="section-subtitle">Une entreprise togolaise au service de votre sécurité</p>
                     </div>
                     <div class="about-grid">
                         <div class="about-image">
-                            <div class="image-frame">
-                                <img src="photo.jpeg" alt="Gottlieb ADIBOLO">
-                            </div>
-                            <div class="experience-badge">
-                                <span class="exp-number">3+</span>
-                                <span class="exp-text">Ans</span>
+                            <img src="photo.jfif" alt="ISPS SARL - Équipe de sécurité professionnelle" class="about-image-main">
+                            <div class="about-badge">
+                                <span class="about-badge-number">15+</span>
+                                <span class="about-badge-text">Années d'excellence</span>
                             </div>
                         </div>
                         <div class="about-content">
-                            <h3>Créatif passionné par le visuel</h3>
-                            <p class="lead">Je suis <strong>Gottlieb ADIBOLO</strong>, graphiste spécialisé dans la création d'identités visuelles uniques.</p>
-                            <p>Mon approche : comprendre votre univers pour le traduire en designs mémorables. Chaque projet est une opportunité de créer quelque chose d'exceptionnel.</p>
+                            <h3>ISPS SARL : Votre partenaire de confiance en sécurité</h3>
+                            <p class="lead">Fondée au Togo, ISPS SARL est une entreprise leader dans le secteur de la sécurité privée, engagée à protéger ce qui compte le plus pour vous.</p>
+                            <p>Notre mission est de fournir des solutions de sécurité complètes et personnalisées aux entreprises, institutions et organisations au Togo et en Afrique de l'Ouest. Nous combinons une expertise locale avec des standards internationaux pour offrir une protection sans compromis.</p>
+
+                            <div class="about-features">
+                                <div class="about-feature">
+                                    <div class="about-feature-icon"></div>
+                                    <span class="about-feature-text"><strong>Fiabilité</strong> - Une réputation solidement établie au Togo</span>
+                                </div>
+                                <div class="about-feature">
+                                    <div class="about-feature-icon"></div>
+                                    <span class="about-feature-text"><strong>Sérieux</strong> - Professionnalisme et rigueur en toutes circonstances</span>
+                                </div>
+                                <div class="about-feature">
+                                    <div class="about-feature-icon"></div>
+                                    <span class="about-feature-text"><strong>Rigueur</strong> - Standards de sécurité les plus élevés</span>
+                                </div>
+                                <div class="about-feature">
+                                    <div class="about-feature-icon"></div>
+                                    <span class="about-feature-text"><strong>Réactivité</strong> - Intervention rapide 24h/24</span>
+                                </div>
+                            </div>
+
                             <div class="about-stats">
                                 <div class="stat-item">
-                                    <span class="stat-number">45+</span>
+                                    <span class="stat-number">15+</span>
+                                    <span class="stat-label">Années</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">200+</span>
                                     <span class="stat-label">Clients</span>
                                 </div>
                                 <div class="stat-item">
-                                    <span class="stat-number">100+</span>
-                                    <span class="stat-label">Créations</span>
+                                    <span class="stat-number">500+</span>
+                                    <span class="stat-label">Agents</span>
                                 </div>
                             </div>
                         </div>
@@ -104,175 +154,460 @@
                 </div>
             </section>
 
-            <!-- Services -->
-            <section class="section sec-services" id="sec-services">
+            <!-- Services Section -->
+            <section class="section sec-services" id="services">
                 <div class="content">
                     <div class="section-header">
                         <span class="section-number">02</span>
-                        <h2 class="section-title">Services</h2>
+                        <h2 class="section-title">Nos Services</h2>
+                        <p class="section-subtitle">Des solutions de sécurité complètes pour répondre à tous vos besoins</p>
                     </div>
                     <div class="services-grid">
+                        <!-- Service 1: Gardiennage -->
                         <div class="service-card">
                             <div class="service-icon">
-                                <i class="fas fa-markpen"></i>
+                                <i class="fas fa-user-shield"></i>
                             </div>
-                            <h3>Logo & Identité</h3>
-                            <p>Logo, charte graphique,品牌形象 complète</p>
+                            <h3>Gardiennage & Surveillance</h3>
+                            <p>Protection physique professionnelle pour vos locaux, sites industriels et événements.</p>
+                            <ul class="service-list">
+                                <li>Agents de sécurité certifiés</li>
+                                <li>Surveillance 24h/24 et 7j/7</li>
+                                <li>Contrôle d'accès</li>
+                                <li>Rondes et inspections</li>
+                            </ul>
                         </div>
+
+                        <!-- Service 2: Convoyage de fonds -->
                         <div class="service-card">
                             <div class="service-icon">
-                                <i class="fas fa-print"></i>
+                                <i class="fas fa-truck-loading"></i>
                             </div>
-                            <h3>Print Design</h3>
-                            <p>Affiche, flyer, brochure, packaging</p>
+                            <h3>Convoyage de Fonds & Valeurs</h3>
+                            <p>Transport sécurisé de vos espèces, bijoux et valeurs précieuses.</p>
+                            <ul class="service-list">
+                                <li>Transport de fonds bancaire</li>
+                                <li>Escorte de valeurs</li>
+                                <li>Gestion de trésorerie</li>
+                                <li>Véhicules blindés sécurisés</li>
+                            </ul>
                         </div>
+
+                        <!-- Service 3: Vidéosurveillance -->
                         <div class="service-card">
                             <div class="service-icon">
-                                <i class="fas fa-globe"></i>
+                                <i class="fas fa-video"></i>
                             </div>
-                            <h3>Web Design</h3>
-                            <p>UI design, mockups, réseaux sociaux</p>
+                            <h3>Vidéosurveillance & Systèmes Électroniques</h3>
+                            <p>Solutions technologiques avancées pour une surveillance optimale.</p>
+                            <ul class="service-list">
+                                <li>Installation de caméras HD</li>
+                                <li>Systèmes d'alarme anti-intrusion</li>
+                                <li>Contrôle d'accès biométrique</li>
+                                <li>Supervision à distance 24h/7</li>
+                            </ul>
                         </div>
+
+                        <!-- Service 4: Audit sécurité -->
                         <div class="service-card">
                             <div class="service-icon">
-                                <i class="fas fa-paint-brush"></i>
+                                <i class="fas fa-search"></i>
                             </div>
-                            <h3>Illustration</h3>
-                            <p>Icons, illustrations, vectorisation</p>
+                            <h3>Audit de Sécurité</h3>
+                            <p>Évaluation complète de vos risques et vulnérabilités.</p>
+                            <ul class="service-list">
+                                <li>Analyse des risques</li>
+                                <li>Diagnostic de vulnérabilité</li>
+                                <li>Recommandations personnalisées</li>
+                                <li>Plans de sécurité sur mesure</li>
+                            </ul>
+                        </div>
+
+                        <!-- Service 5: Formation professionnelle -->
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3>Formation Professionnelle</h3>
+                            <p>Formation de vos équipes aux bonnes pratiques de sécurité.</p>
+                            <ul class="service-list">
+                                <li>Formation agents de sécurité</li>
+                                <li>Sensibilisation aux risques</li>
+                                <li>Gestes de premiers secours</li>
+                                <li>Certification professionnelle</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- Portfolio - Créations Graphiques -->
-            <section class="section sec-portfolio" id="sec-portfolio">
+            <!-- Pourquoi nous choisir Section -->
+            <section class="section sec-why" id="pourquoi-nous">
                 <div class="content">
                     <div class="section-header">
                         <span class="section-number">03</span>
-                        <h2 class="section-title">Portfolio</h2>
+                        <h2 class="section-title">Pourquoi choisir ISPS SARL ?</h2>
+                        <p class="section-subtitle">Les atouts qui font notre différence</p>
+                    </div>
+                    <div class="why-grid">
+                        <div class="why-card">
+                            <div class="why-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <h3>Personnel formé et certifié</h3>
+                            <p>Nos agents suivent une formation rigoureuse et détiennent les certifications requises par les autorités togolaises. Une expertise reconnue pour une protection maximale.</p>
+                        </div>
+                        <div class="why-card">
+                            <div class="why-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h3>Réactivité 24h/24</h3>
+                            <p>Une équipe d'intervention disponible à tout moment pour répondre à vos urgences. Notre centre de supervision assure une surveillance continue de vos sites.</p>
+                        </div>
+                        <div class="why-card">
+                            <div class="why-icon">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <h3>Technologies modernes</h3>
+                            <p>Nous investissons continuellement dans les dernières technologies de sécurité : vidéosurveillance HD, systèmes d'alarme intelligents, contrôle d'accès biométrique.</p>
+                        </div>
+                        <div class="why-card">
+                            <div class="why-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h3>Couverture nationale au Togo</h3>
+                            <p>Une présence physique dans tout le Togo : Lomé, Kara, Sokodé, Atakpamé et toutes les régions. Un service de proximité où que vous soyez.</p>
+                        </div>
                     </div>
 
-                    <div class="portfolio-grid">
-                        <!-- Projet 1 - Logo -->
-                        <div class="portfolio-item">
-                            <img src="logo.png" alt="Logo">
-                            <div class="portfolio-overlay">
-                                <span class="portfolio-category">Logo</span>
-                                <h3>Identité de Marque</h3>
-                                <p>Logo & Charte Graphique</p>
+                    <!-- Certifications Section -->
+                    <div class="certifications-section">
+                        <div class="certifications-header">
+                            <p class="certifications-title">Nos Certifications & Agréments</p>
+                            <p class="certifications-subtitle">Une reconnaissance officielle de notre expertise</p>
+                        </div>
+                        <div class="certifications-grid">
+                            <!-- Agrément Ministère de la Sécurité -->
+                            <div class="certification-badge">
+                                <div class="certification-icon">
+                                    <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="80" height="80" rx="12" fill="#0f172a"/>
+                                        <path d="M40 15L50 28V38C50 52 60 60 60 60H20C20 60 30 52 30 38V28L40 15Z" fill="none" stroke="#b45309" stroke-width="3"/>
+                                        <path d="M25 42L35 52L55 32" stroke="#b45309" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <circle cx="40" cy="28" r="8" fill="#b45309" opacity="0.2"/>
+                                        <text x="40" y="32" text-anchor="middle" fill="#b45309" font-size="10" font-weight="bold">★</text>
+                                    </svg>
+                                </div>
+                                <span class="certification-name">Agrément</span>
+                                <span class="certification-detail">Ministère de la Sécurité</span>
+                            </div>
+
+                            <!-- Certification ISO 9001 -->
+                            <div class="certification-badge">
+                                <div class="certification-icon">
+                                    <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="80" height="80" rx="12" fill="#0f172a"/>
+                                        <circle cx="40" cy="40" r="28" stroke="#b45309" stroke-width="3"/>
+                                        <circle cx="40" cy="40" r="20" stroke="#b45309" stroke-width="2"/>
+                                        <text x="40" y="35" text-anchor="middle" fill="#b45309" font-size="14" font-weight="bold">ISO</text>
+                                        <text x="40" y="48" text-anchor="middle" fill="#b45309" font-size="10" font-weight="bold">9001</text>
+                                        <path d="M40 12V18M40 62V68M12 40H18M62 40H68" stroke="#b45309" stroke-width="2"/>
+                                    </svg>
+                                </div>
+                                <span class="certification-name">Certification</span>
+                                <span class="certification-detail">ISO 9001:2015</span>
+                            </div>
+
+                            <!-- Membre FENAPHES -->
+                            <div class="certification-badge">
+                                <div class="certification-icon">
+                                    <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="80" height="80" rx="12" fill="#0f172a"/>
+                                        <path d="M20 50L32 62L60 30" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <circle cx="40" cy="45" r="18" stroke="#b45309" stroke-width="2" stroke-dasharray="4 2"/>
+                                        <text x="40" y="52" text-anchor="middle" fill="#b45309" font-size="12" font-weight="bold">FENAPHES</text>
+                                    </svg>
+                                </div>
+                                <span class="certification-name">Membre</span>
+                                <span class="certification-detail">FENAPHES</span>
+                            </div>
+
+                            <!-- Assurance Professionnelle -->
+                            <div class="certification-badge">
+                                <div class="certification-icon">
+                                    <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="80" height="80" rx="12" fill="#0f172a"/>
+                                        <path d="M40 18C28 18 20 26 20 38V52L40 62L60 52V38C60 26 52 18 40 18Z" fill="none" stroke="#b45309" stroke-width="3"/>
+                                        <path d="M32 40L38 46L52 32" stroke="#b45309" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <circle cx="40" cy="35" r="5" fill="#b45309" opacity="0.3"/>
+                                    </svg>
+                                </div>
+                                <span class="certification-name">Assurance</span>
+                                <span class="certification-detail">Responsabilité Civile</span>
                             </div>
                         </div>
+                    </div>
 
-                        <!-- Projet 2 - Affiche -->
-                        <div class="portfolio-item">
-                            <img src="affiche.png" alt="Affiche">
-                            <div class="portfolio-overlay">
-                                <span class="portfolio-category">Print</span>
-                                <h3>Affiche Événementielle</h3>
-                                <p>Création Graphique</p>
+                    <!-- Partenaires / Trust Indicators -->
+                    <div class="trust-bar">
+                        <p class="trust-title">Certification et Partenariats</p>
+                        <div class="trust-logos">
+                            <div class="trust-item">
+                                <i class="fas fa-certificate"></i>
+                                <span>Agrément Ministériel</span>
                             </div>
-                        </div>
-
-                        <!-- Projet 3 - Packaging -->
-                        <div class="portfolio-item">
-                            <img src="packaging.jpeg" alt="Packaging">
-                            <div class="portfolio-overlay">
-                                <span class="portfolio-category">Packaging</span>
-                                <h3>Design Packaging</h3>
-                                <p>Emballage Produit</p>
+                            <div class="trust-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Certification ISO 9001</span>
                             </div>
-                        </div>
-
-                        <!-- Projet 4 - Icônes -->
-                        <div class="portfolio-item">
-                            <img src="icone.jpeg" alt="Icônes">
-                            <div class="portfolio-overlay">
-                                <span class="portfolio-category">Illustration</span>
-                                <h3>Set d'Icônes</h3>
-                                <p>Design d'icônes</p>
+                            <div class="trust-item">
+                                <i class="fas fa-handshake"></i>
+                                <span>Partenaire Officiel</span>
                             </div>
-                        </div>
-
-                        <!-- Projet 5 - Brochure -->
-                        <div class="portfolio-item">
-                            <img src="brochure.jpeg" alt="Brochure">
-                            <div class="portfolio-overlay">
-                                <span class="portfolio-category">Print</span>
-                                <h3>Brochure Corporate</h3>
-                                <p>Mise en page</p>
+                            <div class="trust-item">
+                                <i class="fas fa-award"></i>
+                                <span>Membre FENAPHES</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- Contact -->
-            <section class="section sec-contact" id="sec-contact">
+            <!-- Témoignages Section -->
+            <section class="section testimonials-section" id="temoignages">
                 <div class="content">
                     <div class="section-header">
                         <span class="section-number">04</span>
-                        <h2 class="section-title">Contact</h2>
+                        <h2 class="section-title">Témoignages Clients</h2>
+                        <p class="section-subtitle">Ce que disent nos partenaires sur notre collaboration</p>
                     </div>
-                    <div class="contact-simple">
-                        <p class="contact-intro">Un projet ? Discutons-en ensemble.</p>
-                        <div class="contact-cards">
-                            <a href="tel:+22871572566" class="contact-card">
-                                <div class="contact-icon">
-                                    <i class="fas fa-phone-alt"></i>
+                    <div class="testimonials-grid">
+                        <!-- Témoignage 1 - Banque/Convoyage de fonds -->
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p class="testimonial-quote">"ISPS SARL assure le convoyage de fonds pour l'ensemble de nos agences au Togo depuis plus de 7 ans. Leur rigueur, leur ponctualité absolue et leur discrétion professionnelle sont remarquables. Lors d'un incident critique l'année dernière, leur équipe d'intervention a démontré une réactivité exceptionnelle. Nous considerons ISPS comme un partenaire stratégique de confiance."</p>
+                                <div class="testimonial-author">
+                                    <div class="testimonial-avatar">
+                                        <i class="fas fa-user-tie"></i>
+                                    </div>
+                                    <div class="testimonial-info">
+                                        <span class="testimonial-name">Koffi Mensah</span>
+                                        <span class="testimonial-role">Directeur des Opérations</span>
+                                        <span class="testimonial-company">Ecobank Togo</span>
+                                        <div class="trust-badge">
+                                            <i class="fas fa-check-circle"></i>
+                                            Client depuis 2017
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="contact-text">
-                                    <span class="contact-label">Téléphone</span>
-                                    <span class="contact-value">+228 71 57 25 66</span>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
                                 </div>
-                            </a>
-                            <a href="mailto:andreasadibolo@gmail.com" class="contact-card">
-                                <div class="contact-icon">
-                                    <i class="fas fa-envelope"></i>
+                            </div>
+                        </div>
+
+                        <!-- Témoignage 2 - Corporate/Gardiennage -->
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p class="testimonial-quote">"Nous avons confié la sécurité de notre site industriel à ISPS SARL il y a 5 ans. Les agents sont parfaitement formés, courtois et professionnels. Le système de reporting quotidien et la supervision 24h/24 nous apportent une tranquillité d'esprit totale. Leur coordination avec nos équipes internes est fluide et efficace. Une excellente collaboration."</p>
+                                <div class="testimonial-author">
+                                    <div class="testimonial-avatar">
+                                        <i class="fas fa-user-tie"></i>
+                                    </div>
+                                    <div class="testimonial-info">
+                                        <span class="testimonial-name">Dr. Aminata Samaké</span>
+                                        <span class="testimonial-role">Directrice Générale</span>
+                                        <span class="testimonial-company">SOLUCI - Industries Togo</span>
+                                        <div class="trust-badge">
+                                            <i class="fas fa-check-circle"></i>
+                                            Client depuis 2019
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="contact-text">
-                                    <span class="contact-label">Email</span>
-                                    <span class="contact-value">andreasadibolo@gmail.com</span>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
                                 </div>
-                            </a>
-                            <div class="contact-card">
-                                <div class="contact-icon">
-                                    <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                        </div>
+
+                        <!-- Témoignage 3 - Commercial/Vidéosurveillance -->
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p class="testimonial-quote">"L'installation du système de vidéosurveillance par ISPS SARL a transformé notre approche de la sécurité commerciale. La qualité des caméras et la supervision à distance nous permettent de surveiller nos 12 points de vente depuis un seul centre de contrôle. Le service client est disponible 24h/24 et les interventions techniques sont rapides. Un investissement rentabilisé dès la première année."</p>
+                                <div class="testimonial-author">
+                                    <div class="testimonial-avatar">
+                                        <i class="fas fa-user-tie"></i>
+                                    </div>
+                                    <div class="testimonial-info">
+                                        <span class="testimonial-name">Jean-Pierre Dubois</span>
+                                        <span class="testimonial-role">Directeur de la Sécurité</span>
+                                        <span class="testimonial-company">Shoprite Togo</span>
+                                        <div class="trust-badge">
+                                            <i class="fas fa-check-circle"></i>
+                                            Client depuis 2018
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="contact-text">
-                                    <span class="contact-label">Lieu</span>
-                                    <span class="contact-value">Agoé-zossimé, Lomé</span>
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <ul class="soc-media">
-                        <li>
-                            <a href="https://wa.me/22871572566" target="_blank" aria-label="WhatsApp">
-                                <i class="fab fa-whatsapp"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank" aria-label="Instagram">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank" aria-label="Behance">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:andreasadibolo@gmail.com" aria-label="Email">
-                                <i class="fas fa-envelope"></i>
-                            </a>
-                        </li>
-                    </ul>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="section sec-contact" id="contact">
+                <div class="content">
+                    <div class="section-header">
+                        <span class="section-number">05</span>
+                        <h2 class="section-title">Contactez-nous</h2>
+                        <p class="section-subtitle">Une question ? Demandez un devis gratuit</p>
+                    </div>
+                    <div class="contact-grid">
+                        <div class="contact-info">
+                            <h3>Prenons contact</h3>
+                            <p>Notre équipe est disponible pour répondre à toutes vos questions et vous proposer une solution de sécurité adaptée à vos besoins.</p>
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <div class="contact-item-icon">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <div class="contact-item-text">
+                                        <h4>Téléphone</h4>
+                                        <p>+228 22 50 78 80</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-item-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="contact-item-text">
+                                        <h4>Email</h4>
+                                        <p>contact@isps-sarl.tg</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-item-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="contact-item-text">
+                                        <h4>Adresse</h4>
+                                        <p>Lomé, Togo</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-item-icon">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <div class="contact-item-text">
+                                        <h4>Heures d'ouverture</h4>
+                                        <p>Lundi - Vendredi : 07h00-12h00 & 14h30-17h30</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-form-wrapper">
+                            <h3>Demander un devis</h3>
+                            <form id="contact-form" class="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+                                <div class="form-group">
+                                    <label class="form-label" for="nom">Nom complet *</label>
+                                    <input type="text" id="nom" name="nom" class="form-input" placeholder="Votre nom" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="entreprise">Entreprise / Organisation</label>
+                                    <input type="text" id="entreprise" name="entreprise" class="form-input" placeholder="Nom de votre entreprise">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="telephone">Téléphone *</label>
+                                    <input type="tel" id="telephone" name="telephone" class="form-input" placeholder="+228 XX XX XX XX" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="email">Email *</label>
+                                    <input type="email" id="email" name="email" class="form-input" placeholder="votre@email.com" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="service">Service souhaité</label>
+                                    <select id="service" name="service" class="form-input">
+                                        <option value="">Sélectionnez un service</option>
+                                        <option value="gardiennage">Gardiennage & Surveillance</option>
+                                        <option value="convoyage">Convoyage de Fonds</option>
+                                        <option value="videosurveillance">Vidéosurveillance</option>
+                                        <option value="audit">Audit de Sécurité</option>
+                                        <option value="formation">Formation Professionnelle</option>
+                                        <option value="autre">Autre</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="message">Message *</label>
+                                    <textarea id="message" name="message" class="form-textarea" placeholder="Décrivez votre besoin en sécurité..." rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Envoyer</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
 
+        <!-- Footer -->
         <footer class="footer">
-            <p>&copy; 2024 Gottlieb ADIBOLO - Graphiste Créatif</p>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="logo.png" alt="ISPS SARL Logo" style="max-width: 150px; margin-bottom: 1rem;">
+                    <p>ISPS SARL est votre partenaire de confiance pour toutes vos solutions de sécurité au Togo. Votre sécurité, notre priorité.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Gardiennage</a></li>
+                        <li><a href="#services">Convoyage de Fonds</a></li>
+                        <li><a href="#services">Vidéosurveillance</a></li>
+                        <li><a href="#services">Audit Sécurité</a></li>
+                        <li><a href="#services">Formation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Liens rapides</h4>
+                    <ul class="footer-links">
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#apropos">À propos</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pourquoi-nous">Pourquoi nous</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:+22822507880">+228 22 50 78 80</a></li>
+                        <li><a href="mailto:contact@isps-sarl.tg">contact@isps-sarl.tg</a></li>
+                        <li><span>Lomé, Togo</span></li>
+                        <li><span>Lun-Ven: 07h00-12h00 & 14h30-17h30</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ISPS SARL - Tous droits réservés. Votre sécurité, notre priorité.</p>
+            </div>
         </footer>
     </div>
 
